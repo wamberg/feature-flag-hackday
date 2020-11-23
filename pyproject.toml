@@ -2,7 +2,7 @@
 name = "feature-flag-hackday"
 version = "0.1.0"
 description = "Test feature flags services"
-authors = ["Bill Amberg <wamberg@pbs.org>"]
+authors = ["Bill Amberg <wamberg@pbs.org>", "Chris MacDonald <cmacdonald@pbs.org>"]
 license = "Apache-2.0"
 
 [tool.poetry.dependencies]
@@ -11,6 +11,9 @@ Django = "^3.1.3"
 UnleashClient = "^3.5.0"
 
 [tool.poetry.dev-dependencies]
+isort = "^5.6.4"
+black = "^20.8b1"
+flake8 = "^3.8.4"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
